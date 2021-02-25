@@ -1,0 +1,39 @@
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin heading ($fs, $fs-sm, $fs-md, $fs-lg, $fs-xl) {
+  font-size: #{$fs};
+  @include sm {
+    font-size: #{$fs-sm};
+  }
+  @include md {
+    font-size: #{$fs-md};
+  }
+  @include lg {
+    font-size: #{$fs-lg};
+  }
+  @include xl {
+    font-size: #{$fs-xl};
+  }
+}

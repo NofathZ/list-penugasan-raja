@@ -1,0 +1,35 @@
+{
+  "name": "raja-apps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^10.3.3",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-offline": "^2.0.8",
+    "vue-router": "^3.2.0",
+    "vue-tawk": "^1.0.1",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-router": "^4.4.0",
+    "@vue/cli-plugin-vuex": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
